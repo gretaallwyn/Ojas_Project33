@@ -16,14 +16,14 @@ var gameState="play";
 
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(displayWidth,displayHeight);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width/2,height,width,20);
 
 
    for (var k = 0; k <=width; k = k + 80) {
-     divisions.push(new Divisions(k, height-divisionHeight/4, 10, divisionHeight));
+     divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
    }
 
 
