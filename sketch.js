@@ -154,7 +154,7 @@ if(particle!=null)
 
   particle.display();
 
-   if(particle.body.position.y>760)
+   if(particle.body.position.y>560)
    {
      if(particle.body.position.x<300)
      {
